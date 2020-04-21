@@ -24,7 +24,7 @@ For more information on supported props, check the [MDN marquee docs](https://de
 
 If you haven't noticed by now, this project is a joke. It was created as a demo for a presentation at [FikaJS meetup](https://www.meetup.com/FikaJS/events/270022030).
 
-For further reading on the topic of creating custom renderers for React, here are some great resources:
+For further reading/viewing on the topic of creating custom renderers for React, here are some great resources:
 
 - [Beginners guide to Custom React Renderers | Atul R](https://blog.atulr.com/react-custom-renderer-1/)
 - [Building a Custom React Renderer | Sophie Alpert](https://youtu.be/CGpMlWVcHok)
