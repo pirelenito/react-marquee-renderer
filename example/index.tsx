@@ -1,14 +1,25 @@
-import 'react-app-polyfill/ie11';
-import * as React from 'react';
-import * as ReactDOM from 'react-dom';
-import { Thing } from '../.';
+import 'react-app-polyfill/ie11'
+import * as React from 'react'
+import * as ReactDOM from '../.'
 
 const App = () => {
-  return (
-    <div>
-      <Thing />
-    </div>
-  );
-};
+  const [fast, setFast] = React.useState(false)
 
-ReactDOM.render(<App />, document.getElementById('root'));
+  return (
+    <marquee
+      width="256"
+      height="224"
+      direction="down"
+      behavior="alternate"
+      bgColor={fast ? '#E06C75' : '#ECBCBC'}
+      scrollAmount={fast ? 30 : 10}
+      onClick={() => setFast(previous => !previous)}
+    >
+      <marquee behavior="alternate" scrollAmount={fast ? 30 : 10}>
+        FikaJS
+      </marquee>
+    </marquee>
+  )
+}
+
+ReactDOM.render(<App />, document.getElementById('root'))
