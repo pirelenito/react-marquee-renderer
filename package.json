@@ -13,12 +13,12 @@
   },
   "repository": {
     "type": "git",
-    "url": "https://github.com/pirelenito/react-marquee.git"
+    "url": "https://github.com/pirelenito/react-marquee-renderer.git"
   },
   "bugs": {
-    "url": "https://github.com/pirelenito/react-marquee/issues"
+    "url": "https://github.com/pirelenito/react-marquee-renderer/issues"
   },
-  "homepage": "https://github.com/pirelenito/react-marquee",
+  "homepage": "https://github.com/pirelenito/react-marquee-renderer",
   "keywords": [
     "react"
   ],
@@ -38,9 +38,9 @@
     "singleQuote": true,
     "trailingComma": "es5"
   },
-  "name": "@pirelenito/react-marquee",
+  "name": "react-marquee-renderer",
   "author": "Paulo Ragonha",
-  "module": "dist/react-marquee.esm.js",
+  "module": "dist/react-marquee-renderer.esm.js",
   "devDependencies": {
     "@testing-library/jest-dom": "^5.5.0",
     "@types/react": "^16.9.34",

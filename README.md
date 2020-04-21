@@ -1,4 +1,4 @@
-# @pirelenito/react-marquee
+# react-marquee-renderer
 
 A blazing fast 🚀 custom React renderer that supports the only tag that matters: `marquee`.
 
@@ -10,10 +10,10 @@ This is a drop-in replacement for `react-dom`, so instead of:
 import * as ReactDOM from 'react-dom'
 ```
 
-Import the `@pirelenito\react-marquee`:
+Import the `react-marquee-renderer`:
 
 ```tsx
-import * as ReactDOM from '@pirelenito\react-marquee'
+import * as ReactDOM from 'react-marquee-renderer'
 ```
 
 As stated, this renderer only supports the `marquee` tag. Any other tag will be actually rendered as a marquee.
