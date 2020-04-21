@@ -1,5 +1,8 @@
 # react-marquee-renderer
 
+[![npm version](https://badge.fury.io/js/react-marquee-renderer.svg)](https://badge.fury.io/js/react-marquee-renderer)
+[![downloads](https://img.shields.io/npm/dm/react-marquee-renderer.svg?style=flat-square)](https://www.npmjs.com/package/react-marquee-renderer)
+
 A blazing fast 🚀 custom React renderer that supports the only tag that matters: `marquee`.
 
 ## Usage
