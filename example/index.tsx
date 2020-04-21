@@ -16,7 +16,7 @@ const App = () => {
       onClick={() => setFast(previous => !previous)}
     >
       <marquee behavior="alternate" scrollAmount={fast ? 30 : 10}>
-        FikaJS
+        Fika.JS
       </marquee>
     </marquee>
   )
