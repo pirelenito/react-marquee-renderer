@@ -16,11 +16,25 @@ export function render(element: ReactElement, renderDom: HTMLElement | null, cal
   reconcilerInstance.updateContainer(element, container, null, callback)
 }
 
-// Extend the JSX type definition to support the deprecated marquee tag
+// Extend the JSX type definition to bring back the marquee tag
 declare global {
   namespace JSX {
+    interface HTMLMarqueeIsBackAttributes extends React.HTMLAttributes<HTMLMarqueeElement> {
+      behavior?: 'scroll' | 'slide' | 'alternate'
+      bgColor?: string
+      direction?: 'left' | 'right' | 'up' | 'down'
+      height?: string
+      hspace?: number
+      loop?: number
+      scrollAmount?: number
+      scrollDelay?: number
+      trueSpeed?: boolean
+      vspace?: number
+      width?: string
+    }
+
     interface IntrinsicElements {
-      marquee: React.DetailedHTMLProps<React.HTMLAttributes<HTMLMarqueeElement>, HTMLMarqueeElement>
+      marquee: React.DetailedHTMLProps<HTMLMarqueeIsBackAttributes, HTMLMarqueeElement>
     }
   }
 }
